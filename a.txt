@@ -7,5 +7,6 @@
 				poolSupplier,poolDestructor);
 		
 		jedisClusterSupplier = ()->{ throw new IllegalStateException("not cluster mode");};
-		tryJedisClusterSupplier = ()->{ throw new IllegalStateException("not cluster mode");};
 
+		tryJedisClusterSupplier = ()->{ throw new IllegalStateException("not cluster mode");};
+		insert at 'task1'
