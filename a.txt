@@ -1,3 +1,5 @@
+		insert at 'develop'
+
 		Consumer<JedisPool> poolDestructor = (pool)->pool.close();
 		
 		jedisPoolSupplier = new SupplierBoundCache<JedisPool>(
